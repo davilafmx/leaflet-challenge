@@ -1,5 +1,5 @@
 //add the link to a variable
-const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.geojson";
+const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson";
 
 //request the url
 d3.json(url).then(function (data) {
